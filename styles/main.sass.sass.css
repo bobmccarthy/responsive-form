@@ -1,0 +1,206 @@
+body {
+  background-color: #4BA1D4;
+  color: white;
+  font-family: sans-serif; }
+
+.fle div {
+  padding: 2.2em 2em 0 2em; }
+  .fle div input {
+    display: block;
+    box-sizing: border-box;
+    border: .25em solid white;
+    background-color: #4BA1D4;
+    width: 100%;
+    color: white;
+    height: 2.5em;
+    margin-top: 1em; }
+
+.country {
+  padding: 2.2em 2em 0 2em; }
+  .country select {
+    width: 100%;
+    background-color: #4BA1D4;
+    box-sizing: border-box;
+    border: .25em solid #B5A69E;
+    height: 2.5em;
+    margin-top: 1em;
+    color: white; }
+
+.biography {
+  padding: 2.2em 2em 0 2em;
+  box-sizing: border-box; }
+  .biography textarea {
+    margin-top: 1em;
+    color: white;
+    width: 100%;
+    height: 12em;
+    box-sizing: border-box;
+    border: .25em solid white;
+    background-color: #4BA1D4; }
+
+.phone {
+  padding: 2.2em 2em 0 2em; }
+  .phone input {
+    width: 100%;
+    height: 2.5em;
+    background-color: #4BA1D4;
+    box-sizing: border-box;
+    border: .25em solid white;
+    margin-top: 1em;
+    color: white; }
+
+.affiliations {
+  padding: 2.2em 2em 0 2em; }
+  .affiliations textarea {
+    margin-top: 1em;
+    color: white;
+    width: 100%;
+    height: 12em;
+    box-sizing: border-box;
+    border: .25em solid white;
+    background-color: #4BA1D4; }
+
+.ocupation {
+  padding: 2.2em 2em 0 2em; }
+  .ocupation select {
+    width: 100%;
+    background-color: #4BA1D4;
+    box-sizing: border-box;
+    border: .25em solid #B5A69E;
+    height: 2.5em;
+    margin-top: 1em;
+    color: white; }
+
+.cat {
+  padding: 2.2em 2em 0 2em; }
+  .cat input {
+    width: 100%;
+    height: 2.5em;
+    background-color: #4BA1D4;
+    box-sizing: border-box;
+    border: .25em solid white;
+    margin-top: 1em;
+    color: white; }
+
+.gadget {
+  padding: 2.2em 2em 0 2em; }
+  .gadget div {
+    margin-bottom: .7em; }
+
+.talent {
+  padding: 2.2em 2em 0 2em; }
+  .talent select {
+    width: 100%;
+    background-color: #4BA1D4;
+    box-sizing: border-box;
+    border: .25em solid #B5A69E;
+    height: 2.5em;
+    margin-top: 1em;
+    color: white; }
+
+.drink {
+  padding: 2.2em 2em 0 2em; }
+  .drink div {
+    margin-bottom: .7em; }
+
+.power {
+  padding: 2.2em 2em 0 2em; }
+  .power input {
+    width: 100%;
+    height: 2.5em;
+    background-color: #4BA1D4;
+    box-sizing: border-box;
+    border: .25em solid white;
+    margin-top: 1em;
+    color: white; }
+
+.weapon {
+  padding: 2.2em 2em 0 2em; }
+  .weapon input {
+    width: 100%;
+    height: 2.5em;
+    background-color: #4BA1D4;
+    box-sizing: border-box;
+    border: .25em solid white;
+    margin-top: 1em;
+    color: white; }
+
+.comments {
+  padding: 2.2em 2em 0 2em; }
+  .comments textarea {
+    margin-top: 1em;
+    color: white;
+    width: 100%;
+    height: 12em;
+    box-sizing: border-box;
+    border: .25em solid white;
+    background-color: #4BA1D4; }
+
+.send {
+  text-align: center;
+  line-height: 2.875em;
+  width: 11em;
+  margin: 3em auto;
+  height: 2.875em;
+  background-color: #10689A; }
+
+input::-webkit-input-placeholder {
+  color: #0C6495;
+  font-style: italic; }
+
+input::-moz-placeholder {
+  color: #0C6495;
+  font-style: italic; }
+
+input:-moz-placeholder {
+  /* Older versions of Firefox */
+  color: #0C6495;
+  font-style: italic; }
+
+input:-ms-input-placeholder {
+  color: #0C6495;
+  font-style: italic; }
+
+textarea::-webkit-input-placeholder {
+  color: #0C6495;
+  font-style: italic; }
+
+textarea::-moz-placeholder {
+  color: #0C6495;
+  font-style: italic; }
+
+textarea:-moz-placeholder {
+  /* Older versions of Firefox */
+  color: #0C6495;
+  font-style: italic; }
+
+textarea:-ms-input-placeholder {
+  color: #0C6495;
+  font-style: italic; }
+
+@media screen and (min-width: 48.0625em) {
+  .firstchunk {
+    width: 50%;
+    float: left; }
+  .secondchunk {
+    width: 50%;
+    float: right; }
+  .thirdchunk {
+    clear: both; } }
+
+@media screen and (min-width: 70.125em) {
+  .firstchunk {
+    width: 33%;
+    float: left;
+    height: 45em; }
+  .secondchunk {
+    width: 33%;
+    float: left;
+    height: 45em; }
+  .thirdchunk {
+    clear: none;
+    width: 33%;
+    float: right;
+    height: 45em; }
+  .chunks {
+    overflow: hidden; } }
